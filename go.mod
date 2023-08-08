@@ -1,4 +1,4 @@
-module github.com/dfrankland/segmentio
+module github.com/defrankland/segmentio
 
 go 1.17
 
