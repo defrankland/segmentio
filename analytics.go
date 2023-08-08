@@ -310,6 +310,7 @@ func (c *client) report(res *http.Response) (err error) {
 	var body []byte
 
 	if res.StatusCode < 300 {
+		io.Copy(ioutil.Discard, res.Body)
 		c.debugf("response %s", res.Status)
 		return
 	}
