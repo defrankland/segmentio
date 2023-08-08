@@ -1,4 +1,4 @@
-package analytics
+package segmentio
 
 // This type is used to represent properties in messages that support it.
 // It is a free-form object so the application can set any value it sees fit but
@@ -12,7 +12,6 @@ package analytics
 //			.SetRevenue(10.0)
 //			.SetCurrency("USD"),
 //	}
-//
 type Properties map[string]interface{}
 
 func NewProperties() Properties {

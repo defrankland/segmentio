@@ -1,4 +1,4 @@
-package analytics
+package segmentio
 
 // This type is used to represent integrations in messages that support it.
 // It is a free-form where values are most often booleans that enable or

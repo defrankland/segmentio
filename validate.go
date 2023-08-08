@@ -1,4 +1,4 @@
-package analytics
+package segmentio
 
 type FieldGetter interface {
 	GetField(field string) (interface{}, bool)
